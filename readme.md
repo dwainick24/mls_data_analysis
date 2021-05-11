@@ -4,10 +4,12 @@ It currently consists of two different modules:
     main.py
     median_avg_price.py
 
-Main.py 
-    consists of taking in a csv or dataframe, then using the other modules to do some calculations. Eventually, if it wasn't expensive, this could be done with an api call directly from the MLS
+    Main.py 
+        consists of taking in a csv or dataframe, then using the other modules to do some calculations. Eventually, if it wasn't expensive, this could be done with an api call directly from the MLS
 
-Median_avg_price.py
+
+    Median_avg_price.py
+
     All the functions necessary to calculate the median and average List and Sales prices
 
     add_decimal_col
@@ -30,3 +32,19 @@ Median_avg_price.py
     convert_to_dollars
         takes in a value 
         converts value back to dollars 
+    
+    agent_analysis.py
+    
+    This file holds all the necessary functions to take in a dataset and find who are the top performing listing agents in a given dataset
+
+    get_list_agent_count(df)
+        takes in a pandas dataframe 
+        outputs a dictionary with all the agents and how many properties they have listed or sold according to the data 
+    
+    find_top_agents_dict
+        takes in the dictionary created by the function above, along with a number that determines how many top agents one would like to find 
+        Outputs the top agents
+    
+    find_top_agents
+        takes in a dataframe and a number 
+        outputs the top agents using the functions above it 
