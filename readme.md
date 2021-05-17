@@ -1,4 +1,4 @@
-This program is for parsing through data on the MLS. It was written to help gather data for realtors and investors and possibly retail real estate consumers. 
+This program is for parsing through statistics from the MLS. It was written to help gather data for realtors and investors and possibly retail real estate consumers. 
 
 It currently consists of two different modules:
     main.py

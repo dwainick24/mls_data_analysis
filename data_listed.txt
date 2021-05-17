@@ -1,0 +1,4 @@
+AvgPricePerSqFt: 342.50846089933276
+Median List Price: $285,000.0
+Mean List Price: $1,087,894.913525499
+Top Agents: [('Mallory McCabe', 46), ('Paul Saperstein', 26), ('Julian Soffer', 20)]

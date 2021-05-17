@@ -24,18 +24,24 @@ def add_decimal_col(df, price_type):
 def median_price(df, price_type):
     add_decimal_col(df, price_type)
     f_value = df.loc[:, "Price Decimal"].median()
+    print(f_value)
+    f_value = convert_to_dollars(f_value)
+    print(f_value)
     return f_value
 
 def mean_price(df, price_type):
     #will do same as above but with the averages
     add_decimal_col(df, price_type)
     f_value = df.loc[:, "Price Decimal"].mean()
+    f_value = convert_to_dollars(f_value)
     return f_value
 
 def diff_list_sales(df):
     #this function will show the average difference between sales and list prices
     pass 
 
-def convert_back_to_dollars(value):
+def convert_to_dollars(value):
     #function to convert a calculation back to dollars
-    pass 
+    f_value = "{:,}".format(value)
+    f_value = f'${f_value}'
+    return f_value
