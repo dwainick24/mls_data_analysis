@@ -1,4 +1,5 @@
-AvgPricePerSqFt: 342.50846089933276
-Median List Price: $285,000.0
-Mean List Price: $1,087,894.913525499
-Top Agents: [('Mallory McCabe', 46), ('Paul Saperstein', 26), ('Julian Soffer', 20)]
+AvgPricePerSqFt: 357.6431445269307
+Median List Price: $349,999.5
+Mean List Price: $1,109,522.3820678515
+Top Agents: [('Mallory McCabe', 44), ('Debbie Wilson', 14), ('Marisela Cotilla', 12)]Mean Days on Market: 96.15440582053355
+Median Days on Market: 27.0
