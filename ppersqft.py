@@ -1,11 +1,6 @@
 #file will find the price per square foot. Will be done much better than the first one
 import pandas as pd 
 
-#function will remove the excess chars in a string on some rows
-def clean_sqft(sqft_str):
-    sqft_str.replace('¤', '')
-    return sqft_str
-
 #function will convert all sq foot and price strings to floats
 def convert_all_float(df, price_type, sqfttype):
     for i in range(len(df)):
