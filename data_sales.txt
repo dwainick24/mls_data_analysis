@@ -1,0 +1,7 @@
+AvgPricePerSqFt: 245.2257711608971
+Median Sales Price: $325,000.0
+Mean Sales Price: $579,331.246138002
+Top Agents: [('Jennifer Sanford', 29), ('Diana Vasconez', 21), ('SUSAN Demerer', 20)]
+Diff List Sales: 25232.25746652935
+Mean Days on Market: 75.79146593255334
+Median Days on Market: 25.0

@@ -15,7 +15,7 @@ diff_list_sales = diff_list_sales_avg(df)
 DOM_mean = mean_dom(df)
 DOM_median = median_dom(df)
 
-with open("data.txt", "w") as file:
+with open("data_sales.txt", "w") as file:
     file.write(f'AvgPricePerSqFt: {average_ppersqft}\n')
     file.write(f'Median Sales Price: {median_sales}\n')
     file.write(f'Mean Sales Price: {mean_sales}\n')
